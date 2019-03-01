@@ -1,4 +1,4 @@
 # aurora borealis classification
-# Description 
-# System Diagram
+### Description 
+### System Diagram
 
