@@ -4,6 +4,9 @@
 ### User stories 
 1. We want to distinguish between a binary classification aurora and no aurora.
 2. We want to predict the category of unseen auroral images based on extracted features.
+3. As travelers travel to north pole, It'd be brilliant to see Aurora borealis. I'd like to use an application to detect aurora borealis and be able to tell me the type of it. 
+4. As a scientist from NASA, It'd be efficient to have an application that tells me the type of aurora found without investigaing it. 
+
 
 ### Definition of First Sprint
 * Project Goal:
@@ -37,6 +40,7 @@ This feature includes feature extraction and inception-v4 checkpoint from tensor
 
 Oslo Auroral THEMIS (OATH) Data Set is our top choice. It's originated by Clausen & Nickisch. It not only contains easy .csv classification format, but also provides training, validation and test sets. Auroral classification contains 6 categories. Basic installations are python 3, git, wget and imagemagick. The following photo is the directory structure of the file
 ![alt text](https://github.com/ec500-software-engineering/project-aurora_borealis_classification/blob/master/picture/dataset%20structure.png)
+[1]training dataset's directory structure
 
 4. Training environment: 
 
@@ -54,8 +58,12 @@ We are aiming to use Amazon AWS such as SageMaker, EC2 tools to build, train and
 Keras is a high level API build on Tensorflow, this library is specifically designed to build and train deep learning models. Since our approach is to train model using Convolutional Neural Network(CNN). There are two main targets we are aiming to import from Keras, Sequential as model type and Dense as layer type. Sequential is the easiest way to build a model because it allows you to add layers. Dense is just standard layer that we can specify nodes, activations relu and size of the input images. 
 
 ### Task assignments
+1. get familiar with tensorflow/CNN then structure frames for coding implementation.
+2. download dataset and make sure the dataset is complete and useable for our implementation.
+3. create and set up Amazon AWS cloud from tutorials. 
 
-
+### References
+[1] Clausen, L. B. N., & Nickisch, H. (2018). Automatic classification of auroral images from the Oslo Auroral THEMIS (OATH) data set using machine learning. Journal of Geophysical Research: Space Physics, 123, https://doi.org/10.1029/2018JA025274
 
 
 
