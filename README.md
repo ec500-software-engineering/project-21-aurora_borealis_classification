@@ -22,12 +22,16 @@
 - Get familiar with Tensorflow
 - Get the data set: (THEMIS all‐sky imager network. http://themis.ssl.berkeley.edu.)
 - Design API 
-- Complete project infrastructure
+* Complete project infrastructure
 
 ### Definition of the modular architecture of first sprint
 ![alt text](https://github.com/ec500-software-engineering/project-aurora_borealis_classification/blob/master/picture/module.png)
-f: feature of the image
-Ridge classification: a linear method extending and generalizing ordinary linear regression in two aspects 1)The added ridge improves the generalization capabilities of the method. 2)It deals with binary labels rather than real‐valued labels. 
+f: feature of the image.
+
+Ridge classification: a linear method extending and generalizing ordinary linear regression in two aspects:
+* The added ridge improves the generalization capabilities of the method.
+* It deals with binary labels rather than real‐valued labels. 
+
 Tensorflow: an open-source software library for dataflow and differentiable programming across a range of tasks.
 
 
