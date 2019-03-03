@@ -22,7 +22,7 @@
 - Complete project infrastructure
 
 ### Definition of the modular architecture of first sprint
-![alt text](https://github.com/ec500-software-engineering/project-aurora_borealis_classification/blob/master/picture/module.png
+![alt text](https://github.com/ec500-software-engineering/project-aurora_borealis_classification/blob/master/picture/module.png)
 
 ### Technologies to be used in first sprint selected with clear reasons why they were chosen
 1. Tensorflow: 
