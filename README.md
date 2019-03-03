@@ -2,8 +2,24 @@
 ## Sprint 1
 
 ### User stories 
+1. We want to distinguish between a binary classification aurora and no aurora.
+2. We want to predict the category of unseen auroral images based on extracted features.
 
 ### Definition of First Sprint
+* Project Goal:
+	* Detect aurora in the picture
+	* Predict the categories of aurora
+		* Arc: Image that one or multiple bands ofaurora
+		- Diffuse: Images that show large patches of aurora, typically with fuzzy edges.
+		- Discrete: The images show auroral forms with well‐defined, sharp edges.
+		- Cloudy: The sky in these images is dominated by clouds or the dome of the imager is covered with snow.
+		- Moon: The image is dominated by light from the Moon.
+		* Clear  /Noaurora: images which show a clear sky without the appearance of aurora.
+- Conduct machine learning and deep neural network researches
+- Get familiar with Tensorflow
+- Get the data set: (THEMIS all‐sky imager network. http://themis.ssl.berkeley.edu.)
+- Design API 
+- Complete project infrastructure
 
 ### Definition of the modular architecture of first sprint
 
