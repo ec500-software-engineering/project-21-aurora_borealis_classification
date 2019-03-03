@@ -22,6 +22,7 @@
 - Complete project infrastructure
 
 ### Definition of the modular architecture of first sprint
+![alt text](https://github.com/ec500-software-engineering/project-aurora_borealis_classification/blob/master/picture/module.png
 
 ### Technologies to be used in first sprint selected with clear reasons why they were chosen
 1. Tensorflow: 
@@ -35,7 +36,7 @@ This feature includes feature extraction and inception-v4 checkpoint from tensor
 3. Dataset: 
 
 Oslo Auroral THEMIS (OATH) Data Set is our top choice. It's originated by Clausen & Nickisch. It not only contains easy .csv classification format, but also provides training, validation and test sets. Auroral classification contains 6 categories. Basic installations are python 3, git, wget and imagemagick. The following photo is the directory structure of the file
-![alt text](https://github.com/ec500-software-engineering/project-aurora_borealis_classification/blob/master/dataset%20structure.png)
+![alt text](https://github.com/ec500-software-engineering/project-aurora_borealis_classification/blob/master/picture/dataset%20structure.png)
 
 4. Training environment: 
 
