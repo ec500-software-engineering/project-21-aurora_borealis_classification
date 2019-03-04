@@ -2,10 +2,8 @@
 ## Sprint 1
 
 ### User stories 
-1. We want to distinguish between a binary classification aurora and no aurora.
-2. We want to predict the category of unseen auroral images based on extracted features.
-3. As travelers travel to north pole, It'd be brilliant to see Aurora borealis. I'd like to use an application to detect aurora borealis and be able to tell me the type of it. 
-4. As a scientist from NASA, It'd be efficient to have an application that tells me the type of aurora found without investigaing it. 
+1. As travelers travel to north pole, It'd be brilliant to see Aurora borealis. I'd like to use an application to detect aurora borealis and be able to tell me the type of it. 
+2. As a scientist from NASA, It'd be efficient to have an application that tells me the type of aurora found without investigaing it. 
 
 
 ### Definition of First Sprint
