@@ -32,7 +32,7 @@ import numpy as np
 import pandas as pd
 import numpy.random as rand
 
-base_dir = "/Users/jasonxubw/Desktop/untitled folder/oath_v1.1/"
+base_dir = "/Users/AlexLin/Desktop/oath_v1.1/"
 
 # read classifications
 df = pd.read_csv(base_dir+"classifications/classifications.csv", skiprows=18)
