@@ -5,6 +5,9 @@ Machine Learning:
 Trained Ridge Classifier
 ![alt text](https://github.com/ec500-software-engineering/project-21-aurora_borealis_classification/blob/master/picture/Trained%20Ridge%20Classifier.png)
 
+Website:
+![alt text](https://github.com/ec500-software-engineering/project-21-aurora_borealis_classification/blob/master/picture/website.jpg)
+
 ## Sprint 1
 
 ### User stories 
