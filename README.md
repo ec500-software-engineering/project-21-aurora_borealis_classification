@@ -1,4 +1,10 @@
 # aurora borealis classification
+## Milestone 1
+Machine Learning: 
+
+Trained Ridge Classifier
+![alt text](https://github.com/ec500-software-engineering/project-21-aurora_borealis_classification/blob/master/picture/Trained%20Ridge%20Classifier.png)
+
 ## Sprint 1
 
 ### User stories 
