@@ -58,10 +58,17 @@
         <div class="row justify-content-center mb-5">
           
 
-          <form action="upload.php" method="post" enctype="multipart/form-data">
-            Select image to upload:
-            <input type="file" name="fileToUpload" id="fileToUpload">
-            <input type="submit" value="Upload Image" name="submit">
+          <!--<form action="upload.php" method="post" enctype="multipart/form-data">-->
+            <!--Select image to upload:-->
+            <!--<input type="file" name="fileToUpload" id="fileToUpload">-->
+            <!--<input type="submit" value="Upload Image" name="submit">-->
+          <!--</form>-->
+
+          <form method="POST" enctype="multipart/form-data"
+            action="./../show/">
+            {% csrf_token %}
+            <input type="file" name="img">
+            <button type="submit">上传</button>
           </form>
 
           <br></br>

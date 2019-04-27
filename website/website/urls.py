@@ -19,16 +19,19 @@ from django.urls import path
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib import staticfiles
 
+from django.conf.urls.static import static
+from django.conf import settings
+
 from aurora_application import views
-from aurora_application.views import uploadImg, showImg
+from aurora_application.views import upload, show
 
 urlpatterns = [
     path('', views.index, name='aurora_main'),
 
 
     path('admin/', admin.site.urls),
-    path('uploadImg/', uploadImg),
-    path('showImg/', showImg)
-]
+    path('upload/', upload),
+    path('show/', show)
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 urlpatterns += staticfiles_urlpatterns()

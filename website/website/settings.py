@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'website.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'USER': 'root',
-        'PASSWORD': '',
+        'NAME': 'imgs',
+        'USER': 'xcliang',
+        'PASSWORD': 'LXC123danny',
         'HOST': 'localhost',
-        'PORT': 3306
+        'PORT': 8000
     }
 }
 
@@ -131,3 +131,6 @@ STATICFILES_DIRS = (
     ('images',os.path.join(STATIC_ROOT,'images').replace('\\','/') ),
     ('upload',os.path.join(STATIC_ROOT,'upload').replace('\\','/') ),
 )
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media').replace('\\', '/')
+MEDIA_URL = '/media/'
