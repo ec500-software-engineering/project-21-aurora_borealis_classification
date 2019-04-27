@@ -20,7 +20,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib import staticfiles
 
 from aurora_application import views
-from imgTest.views import uploadImg
+from aurora_application.views import uploadImg, showImg
 
 urlpatterns = [
     path('', views.index, name='aurora_main'),
@@ -28,6 +28,7 @@ urlpatterns = [
 
     path('admin/', admin.site.urls),
     path('uploadImg/', uploadImg),
+    path('showImg/', showImg)
 ]
 
 urlpatterns += staticfiles_urlpatterns()
