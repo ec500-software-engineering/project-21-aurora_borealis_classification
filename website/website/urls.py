@@ -23,13 +23,14 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 from aurora_application import views
-from aurora_application.views import upload, show, contact
+from aurora_application.views import upload, show, contact, home
 
 urlpatterns = [
     path('', views.index, name='aurora_main'),
 
 
     path('admin/', admin.site.urls),
+    path('aurora_main/', home),
     path('upload/', upload),
     path('show/', show),
     path('contact/', contact)

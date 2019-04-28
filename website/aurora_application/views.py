@@ -10,6 +10,8 @@ def index(request):
     # template = loader.get_template('templates/aurora_main.html')
     return render(request, 'aurora_main.html')
 
+def home(request):
+    return render(request, 'aurora_main.html')
 
 def upload(request):
     # if request.method == 'POST':
