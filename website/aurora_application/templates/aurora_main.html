@@ -29,7 +29,7 @@
               <li>
                 <a href="index.html" class="animsition-link">Home</a>
               </li>
-              <li class="active"><a href="about.html" class="animsition-link">About</a></li>
+              <li><a href="contact.html" class="animsition-link">About</a></li>
               <li><a href="contact.html" class="animsition-link">Contact</a></li>
             </ul> <!-- .templateux-menu -->
 
@@ -56,19 +56,12 @@
     <div class="templateux-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
-          
-
-          <!--<form action="upload.php" method="post" enctype="multipart/form-data">-->
-            <!--Select image to upload:-->
-            <!--<input type="file" name="fileToUpload" id="fileToUpload">-->
-            <!--<input type="submit" value="Upload Image" name="submit">-->
-          <!--</form>-->
 
           <form method="POST" enctype="multipart/form-data"
             action="./../show/">
             {% csrf_token %}
             <input type="file" name="img">
-            <button type="submit">上传</button>
+            <button type="submit">upload</button>
           </form>
 
           <br></br>
@@ -78,7 +71,7 @@
           </div>
           <div class="row" data-aos="fade-up">
               <div class="col-md-12">
-                <p class="lead">Arc: Image that one or multiple bands ofaurora
+                <p class="lead">Arc: Image that one or multiple bands of aurora
               </div>
               <div class="col-md-12">
                 <p class="lead">Diffuse: Images that show large patches of aurora, typically with fuzzy edges.
