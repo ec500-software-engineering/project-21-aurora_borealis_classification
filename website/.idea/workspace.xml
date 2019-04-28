@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="955d3507-ff77-49b6-80a9-906800f03422" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/aurora_application/templates/aurora_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/aurora_application/templates/aurora_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aurora_application/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/aurora_application/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aurora_application/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/aurora_application/templates/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aurora_application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/aurora_application/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imgs" beforeDir="false" afterPath="$PROJECT_DIR$/imgs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,26 +58,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="16" />
+          <entry key="html" value="18" />
           <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="16" />
+          <entry key="HTML" value="18" />
           <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="456" />
-          <entry key="py" value="578" />
+          <entry key="html" value="535" />
+          <entry key="py" value="942" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="456" />
-          <entry key="Python" value="578" />
+          <entry key="HTML" value="535" />
+          <entry key="Python" value="942" />
         </counts>
       </usages-collector>
     </session>
@@ -103,15 +105,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aurora_application/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="480">
+              <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-                <marker date="1556458817061" expanded="true" signature="332:381" ph="..." />
-                <marker date="1556458817061" expanded="true" signature="758:763" ph="..." />
+                <marker date="1556466893282" expanded="true" signature="508:623" ph="..." />
+                <marker date="1556466893282" expanded="true" signature="1255:2429" ph="..." />
+                <marker date="1556466893282" expanded="true" signature="2454:2459" ph="..." />
               </folding>
             </state>
           </provider>
@@ -120,17 +123,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aurora_application/templates/show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+            <state relative-caret-position="1260">
+              <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aurora_application/templates/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="631">
+              <caret line="85" column="33" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="85" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aurora_application/templates/aurora_main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="632">
+              <caret line="88" column="47" lean-forward="true" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="570">
+              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
               </folding>
@@ -149,6 +176,7 @@
       <find>js</find>
       <find>backgr</find>
       <find>style.css</find>
+      <find>c</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,10 +194,10 @@
         <option value="$PROJECT_DIR$/aurora_application/templates/showImg.html" />
         <option value="$PROJECT_DIR$/aurora_application/models.py" />
         <option value="$PROJECT_DIR$/aurora_application/templates/upload.html" />
-        <option value="$PROJECT_DIR$/aurora_application/templates/show.html" />
+        <option value="$PROJECT_DIR$/website/urls.py" />
         <option value="$PROJECT_DIR$/aurora_application/templates/aurora_main.html" />
         <option value="$PROJECT_DIR$/aurora_application/templates/contact.html" />
-        <option value="$PROJECT_DIR$/website/urls.py" />
+        <option value="$PROJECT_DIR$/aurora_application/templates/show.html" />
         <option value="$PROJECT_DIR$/aurora_application/views.py" />
       </list>
     </option>
@@ -250,7 +278,7 @@
     <frame x="2" y="23" width="1310" height="1346" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18927445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18927445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -261,7 +289,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38835725" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38835725" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -302,30 +330,10 @@
     <entry file="file://$PROJECT_DIR$/website/templates/aurora_main.html" />
     <entry file="file://$PROJECT_DIR$/website/templates/imgUpload.html" />
     <entry file="file://$PROJECT_DIR$/website/templates/showImg.html" />
-    <entry file="file://$PROJECT_DIR$/aurora_application/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="61" column="53" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aurora_application/templates/upload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aurora_application/templates/aurora_main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -346,31 +354,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurora_application/templates/aurora_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="88" column="47" lean-forward="true" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurora_application/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="85" column="33" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="85" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aurora_application/templates/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+        <state relative-caret-position="1260">
+          <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aurora_application/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="480">
+          <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-            <marker date="1556458817061" expanded="true" signature="332:381" ph="..." />
-            <marker date="1556458817061" expanded="true" signature="758:763" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
+            <marker date="1556466893282" expanded="true" signature="508:623" ph="..." />
+            <marker date="1556466893282" expanded="true" signature="1255:2429" ph="..." />
+            <marker date="1556466893282" expanded="true" signature="2454:2459" ph="..." />
           </folding>
         </state>
       </provider>
