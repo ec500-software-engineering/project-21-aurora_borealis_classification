@@ -44,9 +44,10 @@ def show(request):
     new_img.save()
 
 
-
+    #X_new = img_convert_csv(new_img)
 
     y_pred = train()
+    
     category = get_category(y_pred)
 
     content = {
@@ -88,7 +89,7 @@ def train():
         cnt += 1
 
     y_pred = clf.predict(X_test[:10])
-    return(y_pred[6])
+    return(y_pred[0])
 
 def get_category(y_pred):
     d = {1 : 'Arc',
