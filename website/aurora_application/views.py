@@ -89,7 +89,7 @@ def train():
         cnt += 1
 
     y_pred = clf.predict(X_test[:10])
-    return(y_pred[0])
+    return(y_pred[3])
 
 def get_category(y_pred):
     d = {1 : 'Arc',
