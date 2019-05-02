@@ -12,6 +12,30 @@ import h5py
 import numpy as np
 import pandas as pd
 import numpy.random as rand
+# import example_feat_extract
+
+# efe = example_feat_extract
+
+
+# from __future__ import absolute_import
+# from __future__ import division
+# from __future__ import print_function
+#
+# import argparse
+# import numpy as np
+# import time
+# from datetime import datetime
+# import os
+# # import sys
+
+
+# te/aurora_application/feature_extractor/feature_extractor.py"
+# sys.path.append("/Users/xcliang/Documents/GitHub/project-21-aurora_borealis_classification/website/aurora_application/feature_extractor")
+# extractor =
+# import utils
+# from feature_extractor.feature_extractor import FeatureExtractor
+
+
 
 
 # Create your views here.
@@ -43,8 +67,7 @@ def show(request):
     new_img = IMG(img=request.FILES.get('img'))
     new_img.save()
 
-
-    #X_new = img_convert_csv(new_img)
+    # efe.get_features()
 
     y_pred = train()
     
@@ -90,6 +113,16 @@ def train():
 
     y_pred = clf.predict(X_test[:10])
     return(y_pred[3])
+
+    # data_dir = "/Users/xcliang/Documents/GitHub/project-21-aurora_borealis_classification/website/media/"
+    # trained_classifier = clf
+    #
+    # f = h5py.File(data_dir + "features/auroral_feat.h5", "r")
+    # features_test = f["Logits"].value
+    # f.close()
+    #
+    # pred = trained_classifier.predict(features_test)
+    # print(pred)
 
 def get_category(y_pred):
     d = {1 : 'Arc',
